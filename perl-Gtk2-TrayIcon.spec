@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Gtk2-TrayIcon
+%define		pnam	Gtk2-TrayIcon
 Summary:	Gtk2::TrayIcon - Perl interface to the EggTrayIcon library
 Summary(pl):	Gtk2::TrayIcon - interfejs perlowy do biblioteki EggTrayIcon
 Name:		perl-Gtk2-TrayIcon
