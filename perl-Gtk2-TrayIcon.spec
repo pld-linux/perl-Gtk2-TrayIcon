@@ -18,6 +18,7 @@ BuildRequires:	libglade2-devel >= 2.0.0
 BuildRequires:	perl-Glib >= 1.00
 BuildRequires:	perl-Gtk2 >= 1.00
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-ExtUtils-Depends
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
