@@ -3,12 +3,12 @@
 Summary:	GNOME TrayIcon library
 Summary(pl):	Biblioteka GNOME TrayIcon
 Name:		perl-Gtk2-TrayIcon
-Version:	0.03
+Version:	0.04
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	4c627fd00cc316ac018732e7739a5c4f
+# Source0-md5:	eff5603bba7eb0f20e56a0d4ce1874db
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libglade2-devel >= 2.0.0
 BuildRequires:	perl-Glib >= 1.00
