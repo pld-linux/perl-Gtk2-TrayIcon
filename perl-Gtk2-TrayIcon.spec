@@ -1,5 +1,5 @@
-%include        /usr/lib/rpm/macros.perl
-%define pnam    Gtk2-TrayIcon
+%include	/usr/lib/rpm/macros.perl
+%define	pnam	Gtk2-TrayIcon
 Summary:	GNOME TrayIcon library
 Summary(pl):	Biblioteka GNOME TrayIcon
 Name:		perl-Gtk2-TrayIcon
