@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Gtk2-TrayIcon
-Summary:	GNOME TrayIcon library
-Summary(pl):	Biblioteka GNOME TrayIcon
+Summary:	Gtk2::TrayIcon - Perl interface to the EggTrayIcon library
+Summary(pl):	Gtk2::TrayIcon - interfejs perlowy do biblioteki EggTrayIcon
 Name:		perl-Gtk2-TrayIcon
 Version:	0.04
 Release:	1
@@ -18,10 +18,13 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GNOME TrayIcon library.
+Gtk2::TrayIcon module allows a Perl developer to embed an arbitrary
+widget in a System Tray like the GNOME notification area.
 
 %description -l pl
-Biblioteka GNOME TrayIcon.
+Modu³ Gtk2::TrayIcon umo¿liwia programistom perlowym umieszczanie
+dowolnych kontrolek w Zasobniku Systemowym (System Tray), takim jak w
+obszarze powiadamiania GNOME.
 
 %prep
 %setup -q -n %{pnam}-%{version}
