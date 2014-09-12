@@ -62,5 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Gtk2/TrayIcon/Install
 %dir %{perl_vendorarch}/auto/Gtk2/TrayIcon
 %attr(755,root,root) %{perl_vendorarch}/auto/Gtk2/TrayIcon/*.so
-%{perl_vendorarch}/auto/Gtk2/TrayIcon/*.bs
 %{_mandir}/man3/Gtk2::TrayIcon*.3pm*
