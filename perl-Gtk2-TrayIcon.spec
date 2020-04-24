@@ -20,6 +20,7 @@ BuildRequires:	perl-ExtUtils-Depends >= 0.1
 BuildRequires:	perl-ExtUtils-PkgConfig >= 0.1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
