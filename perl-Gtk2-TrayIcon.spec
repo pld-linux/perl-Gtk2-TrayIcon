@@ -7,7 +7,7 @@ Summary:	Gtk2::TrayIcon - Perl interface to the EggTrayIcon library
 Summary(pl.UTF-8):	Gtk2::TrayIcon - interfejs perlowy do biblioteki EggTrayIcon
 Name:		perl-Gtk2-TrayIcon
 Version:	0.07
-Release:	3
+Release:	4
 License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	https://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
